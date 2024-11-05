@@ -10,9 +10,9 @@
 - For "/" : Use this rootLayout in router in main.jsx and every other component(with path) as its child. These children will be in Outlet of rootLayout.This way navbar displayed in every page
 
 - For "/dashboard/..." => dashboardLayout 
+--------------
 
-`AUTHENTICATION`:
-- 
+` AUTHENTICATION `:
 
 
 - Using Clerk library. Provides PUBLISHABLE_KEY & to be put inside .env
@@ -20,7 +20,9 @@
 - define routes for sign-in, sign-up inside main.jsx and use <SignIn../> and <SignOut..> in these pages. 
 
 `Route Protection`
-- ANything under /dashboard should not be accessed to not signed in users
+- Anything under /dashboard and chats should not be accessed to not signed in users
 - useAuth() from clerk gives userId. If userId not there while loading Dashboard=> redirect to sign-in
-- 
 
+-------------------
+
+- A negative margin on an element allows it to eat up the space of its parent container.
