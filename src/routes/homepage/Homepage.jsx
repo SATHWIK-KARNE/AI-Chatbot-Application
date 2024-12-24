@@ -9,7 +9,7 @@ const Homepage = () => {
       <img src="/orbital.png" alt="" className="orbital" />
       <div className="left">
         <h1>AI Chatbot</h1>
-        <h2>Your 24/7 Smartest Conversation Partner</h2>
+        <h2>Your 24/7 Smart Conversation Partner</h2>
         <h3>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat sint
           dolorem doloribus, architecto dolor.
