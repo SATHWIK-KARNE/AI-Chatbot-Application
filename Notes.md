@@ -32,3 +32,14 @@
 
 - A negative margin on an element allows it to eat up the space of its parent container.
 - Link element actually renders <a> element in DOM, so applying styles to a tag will affect <Link> as well in CSS.
+
+---
+
+`Chat Page`
+
+-Similar to Messaging platforms design with 2 users
+-chatPage also has formInput below but its not put inside here as whenever new answer from AI/ enter something into input->page will re-render.
+-solve NewPrompt component is created for this.
+-but when we 1st open/reload->should last latest msg(just above input form) instead of 1st
+-So we use useRef hook to above this form & when page loads-> endRef.current.scrollIntoView will take to bottom of chatPage(near form)where we have a div with this ref
+-we need to upload photos to "imagekit.io" and get their links to be stored in DB.
